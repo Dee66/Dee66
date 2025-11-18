@@ -7,7 +7,7 @@
 # Hi, I'm Dee 👋  
 AI Infrastructure Architect focused on Terraform plan correctness, GPU FinOps, and secure RAG pipelines.
 
-I build deterministic, offline-first governance tools that help teams ship AI infra with confidence — no telemetry, no guesswork, and no black boxes.
+I build deterministic, offline-first governance tools that help teams ship AI infra with confidence - no telemetry, no guesswork, and no black boxes.
 
 ---
 
@@ -16,29 +16,29 @@ I build deterministic, offline-first governance tools that help teams ship AI in
 Purpose-built for modern AI, GPU-heavy, and RAG workloads.
 
 ## 🔹 Free Scanners  
-**VectorScan** — High-signal scanner for RAG/vector database security  
-👉 https://github.com/GuardSuite/VectorScan  
+**VectorScan** High-signal scanner for RAG/vector database security  
+👉 https://github.com/Dee66/GuardSuite/VectorScan  
 
-**ComputeScan** — Detects GPU cost drift, autoscaling issues, and utilization waste  
-👉 https://github.com/GuardSuite/ComputeScan  
+**ComputeScan** Detects GPU cost drift, autoscaling issues, and utilization waste  
+👉 https://github.com/Dee66/GuardSuite/ComputeScan  
 
 ---
 
 # 💼 Paid Governance Blueprints  
 Commercial-grade governance for teams that need executive-level proof.
 
-### **VectorGuard Blueprint — $79/year**  
+### **VectorGuard Blueprint $79/year**  
 **Auditable Compliance Ledger for Zero-Trust RAG security.**  
 Get CISO-grade proof, not just alerts. Deterministic OPA policies, full drift analysis, and an exportable governance artifact.
 
-### **ComputeGuard Blueprint — $129/year**  
+### **ComputeGuard Blueprint $129/year**  
 **CFO-ready Zero-Waste Score for GPU cost certainty.**  
 Complete drift autopsy, underutilization detection, GPU-rightsizing intelligence, and FinOps-grade governance reporting.
 
 ---
 
 # 📘 Demo Repository  
-**Live Failures:** Real Terraform plans demonstrating critical vector security flaws and GPU cost risks — validated by both scanners.  
+**Live Failures:** Real Terraform plans demonstrating critical vector security flaws and GPU cost risks validated by both scanners.  
 👉 https://github.com/GuardSuite/terraform-governance-demo
 
 ---

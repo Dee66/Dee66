@@ -17,10 +17,10 @@ Purpose-built for modern AI, GPU-heavy, and RAG workloads.
 
 ## 🔹 Free Scanners  
 **VectorScan** High-signal scanner for RAG/vector database security  
-👉 https://github.com/Dee66/GuardSuite/VectorScan  
+👉 [https://github.com/Dee66/GuardSuite/VectorScan](https://github.com/Dee66/VectorScan)  
 
 **ComputeScan** Detects GPU cost drift, autoscaling issues, and utilization waste  
-👉 https://github.com/Dee66/GuardSuite/ComputeScan  
+👉 [https://github.com/Dee66/GuardSuite/ComputeScan  ](https://github.com/Dee66/ComputeScan)
 
 ---
 

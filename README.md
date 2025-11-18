@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="computescan_terminal_v4.gif" alt="ComputeScan Demo" width="850">
+  <img src="computescan_terminal.gif" alt="ComputeScan Demo" width="850">
 </p>
 
 ---

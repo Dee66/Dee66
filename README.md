@@ -39,7 +39,7 @@ Complete drift autopsy, underutilization detection, GPU-rightsizing intelligence
 
 # 📘 Demo Repository  
 **Live Failures:** Real Terraform plans demonstrating critical vector security flaws and GPU cost risks validated by both scanners.  
-👉 [[https://github.com/Dee66/GuardSuite/terraform-governance-demo](https://github.com/Dee66/GuardSuite-Zero-Trust-Demo-Repo)](https://github.com/Dee66/GuardSuite-Zero-Trust-Demo-Repo)
+👉 [[https://github.com/Dee66/GuardSuite/terraform-governance-demo](https://github.com/Dee66/GuardSuite-Zero-Trust-Demo-Repo)](https://github.com/Dee66/GuardSuite-Zero-Trust-Demo-Repo)](https://github.com/Dee66/GuardSuite-Zero-Trust-Demo-Repo)
 
 ---
 

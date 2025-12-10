@@ -15,8 +15,6 @@ My focus is on reproducible pipelines, GPU FinOps, Terraform governance, and sec
 ## ⚙️ GuardSuite: AI Infrastructure Governance Tools  
 Design philosophy: **deterministic outputs, security-by-default, offline execution, zero-IAM assumptions.**
 
-I build open-source scanners that surface high-impact risks in AI and GPU workloads -before they reach production.
-
 ---
 
 ### **VectorScan (Open-Source Security Scanner)**  

@@ -80,5 +80,5 @@ Minimal AWS-native framework for RAG pipelines, PEFT fine-tuning workflows, and 
 
 ## 📫 Contact  
 Email: support@shieldcraft-ai.com  
-LinkedIn: https://www.linkedin.com/in/dee-prinsloo  
-Website (coming soon): shieldcraft-ai.com
+LinkedIn: www.linkedin.com/in/deon-prinsloo-aws
+Website: shieldcraft-ai.com

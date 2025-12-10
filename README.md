@@ -46,7 +46,6 @@ GPU FinOps governance with utilization insights, drift analysis, and reproducibl
 
 ## 📘 Terraform Demo Repository  
 A set of real Terraform plans demonstrating vector security flaws, GPU drift, and misconfiguration scenarios validated by GuardSuite scanners.  
-👉 https://github.com/Dee66/terraform-governance-demo
 
 ---
 

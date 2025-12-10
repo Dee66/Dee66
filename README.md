@@ -4,68 +4,84 @@
 
 ---
 
-# Hi, I'm Dee 👋  
-AI Infrastructure Architect focused on Terraform plan correctness, GPU FinOps, and secure RAG pipelines.
+# Dee Prinsloo  
+**Senior Software Engineer | GenAI (AWS) | AI Platform & Infrastructure Engineering**
 
-I build deterministic, offline-first governance tools that help teams ship AI infra with confidence - no telemetry, no guesswork, and no black boxes.
-
----
-
-# 🚀 GuardSuite  
-**Security + FinOps governance for Terraform plans.**  
-Purpose-built for modern AI, GPU-heavy, and RAG workloads.
-
-## 🔹 Free Scanners  
-**VectorScan** High-signal scanner for RAG/vector database security  
-👉 [https://github.com/Dee66/GuardSuite/VectorScan](https://github.com/Dee66/VectorScan)  
-
-**ComputeScan** Detects GPU cost drift, autoscaling issues, and utilization waste  
-👉 [https://github.com/Dee66/GuardSuite/ComputeScan  ](https://github.com/Dee66/ComputeScan)
+I specialize in building secure, deterministic, and cost-efficient AI infrastructure on AWS.  
+My focus is on reproducible pipelines, GPU FinOps, Terraform governance, and secure RAG architectures—tools that make AI systems safer, cheaper, and easier to operate in real production environments.
 
 ---
 
-# 💼 Paid Governance Blueprints  
-Commercial-grade governance for teams that need executive-level proof.
+## ⚙️ GuardSuite — AI Infrastructure Governance Tools  
+Design philosophy: **deterministic outputs, security-by-default, offline execution, zero-IAM assumptions.**
 
-### **VectorGuard Blueprint $79/year**  
-**Auditable Compliance Ledger for Zero-Trust RAG security.**  
-Get CISO-grade proof, not just alerts. Deterministic OPA policies, full drift analysis, and an exportable governance artifact.
-
-### **ComputeGuard Blueprint $129/year**  
-**CFO-ready Zero-Waste Score for GPU cost certainty.**  
-Complete drift autopsy, underutilization detection, GPU-rightsizing intelligence, and FinOps-grade governance reporting.
+I build open-source scanners that surface high-impact risks in AI and GPU workloads—before they reach production.
 
 ---
 
-# 📘 Demo Repository  
-**Live Failures:** Real Terraform plans demonstrating critical vector security flaws and GPU cost risks validated by both scanners.  
-👉 [https://github.com/Dee66/GuardSuite/terraform-governance-demo](https://github.com/Dee66/GuardSuite-Zero-Trust-Demo-Repo)
+### **VectorScan (Open-Source Security Scanner)**  
+High-signal analysis for vector databases and RAG pipelines.  
+Detects unsafe retrieval patterns, embedding leakage, and configuration drift.  
+👉 https://github.com/Dee66/VectorScan
+
+### **ComputeScan (Open-Source GPU Governance Scanner)**  
+GPU cost-governance and utilization analysis.  
+Identifies cost drift, underutilization, scaling anomalies, and waste patterns.  
+👉 https://github.com/Dee66/ComputeScan
 
 ---
 
-# 🧰 Featured Work
+## 🧩 Governance Blueprints (Optional, Enterprise-Facing Extensions)
+
+These modules provide **enforceable policies** and **exportable audit results** for teams that need stronger governance signals.  
+All scanners remain fully open source.
+
+### **VectorGuard Blueprint**  
+Zero-Trust RAG governance with reproducible OPA policies and audit-ready compliance outputs.
+
+### **ComputeGuard Blueprint**  
+GPU FinOps governance with utilization insights, drift analysis, and reproducible cost reports.
+
+---
+
+## 📘 Terraform Demo Repository  
+A set of real Terraform plans demonstrating vector security flaws, GPU drift, and misconfiguration scenarios validated by GuardSuite scanners.  
+👉 https://github.com/Dee66/terraform-governance-demo
+
+---
+
+## 🧰 Selected Projects
 
 ### **ShieldCraft AI**  
-AWS-native reference architecture for secure, production-grade AI systems.  
+AWS-native reference architecture demonstrating secure GenAI patterns, reproducible MLOps pipelines, and cost-aware infrastructure.  
 👉 https://github.com/ShieldCraft-AI/ShieldCraft-AI
 
 ### **CodeCraft AI**  
-Minimal, AWS-native MLOps/RAG framework for rapid experimentation and deployment.  
+Minimal AWS-native framework for RAG pipelines, PEFT fine-tuning workflows, and secure MLOps deployment.  
 👉 https://github.com/Dee66/CodeCraft-AI
 
 ---
 
-# 🔍 What I Focus On  
-- Terraform plan parsing & correctness  
-- OPA / Rego deterministic policy engines  
-- Vector DB / RAG security  
-- GPU FinOps & rightsizing governance  
-- Drift detection for AI infrastructure  
-- Zero-trust, offline-first tooling  
-- AWS-native AI platforms  
-- Secure MLOps & LLM deployment pipelines  
+## 🔍 Technical Focus Areas  
+- Deterministic engineering & reproducible pipelines  
+- Terraform plan parsing & governance  
+- OPA/Rego policy engines  
+- Vector DB & RAG security  
+- GPU FinOps, rightsizing, and drift detection  
+- AWS-native AI (Bedrock, SageMaker, Lambda, CDK)  
+- Secure MLOps: CI/CD, tagging, environment-aware configs  
+- Offline-first, audit-friendly infrastructure tooling  
 
 ---
 
-### 📫 Contact  
-support@shieldcraft-ai.com
+## 🛠️ What I'm Working On  
+- Expanding ComputeScan with GPU drift autopsy reports  
+- Adding new RAG security checks to VectorScan  
+- Growing the GuardSuite blueprint ecosystem for broader AI governance  
+
+---
+
+## 📫 Contact  
+Email: support@shieldcraft-ai.com  
+LinkedIn: https://www.linkedin.com/in/dee-prinsloo  
+Website (coming soon): shieldcraft-ai.com

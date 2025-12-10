@@ -8,14 +8,14 @@
 **Senior Software Engineer | GenAI (AWS) | AI Platform & Infrastructure Engineering**
 
 I specialize in building secure, deterministic, and cost-efficient AI infrastructure on AWS.  
-My focus is on reproducible pipelines, GPU FinOps, Terraform governance, and secure RAG architectures—tools that make AI systems safer, cheaper, and easier to operate in real production environments.
+My focus is on reproducible pipelines, GPU FinOps, Terraform governance, and secure RAG architectures. Tools that make AI systems safer, cheaper, and easier to operate in real production environments.
 
 ---
 
-## ⚙️ GuardSuite — AI Infrastructure Governance Tools  
+## ⚙️ GuardSuite: AI Infrastructure Governance Tools  
 Design philosophy: **deterministic outputs, security-by-default, offline execution, zero-IAM assumptions.**
 
-I build open-source scanners that surface high-impact risks in AI and GPU workloads—before they reach production.
+I build open-source scanners that surface high-impact risks in AI and GPU workloads -before they reach production.
 
 ---
 

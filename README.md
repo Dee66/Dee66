@@ -1,84 +1,104 @@
+# The Deterministic Toolsmith  
+### Engineering for Safe First Decisions
+
+Hi, I’m Dee.
+
+I build deterministic, offline developer tooling for AI and cloud systems.
+
+I do this because I have repeatedly seen capable teams make the **wrong first change** in unfamiliar systems. Not due to incompetence but due to false confidence created by shallow analysis tools.
+
+My work focuses on **decision safety**: helping engineers understand what is safe to change, what is risky, and when judgment, not action, is required.
+
+---
+
+## Foundational Principles (Engineering Invariants)
+
+> My tooling optimizes for **trust over speed**.  
+> Outputs must be **deterministic, auditable, and grounded only in observable evidence**.  
+> I avoid speculative inference and prefer **explicitly bounded conclusions**.  
+> If a conclusion cannot be supported safely, **silence is a valid outcome**.
+
+These constraints are intentional. They prevent tools from projecting authority they have not earned.
+
+---
+
+## What I work on
+
+I design and build tools that:
+
+- Analyze repositories, infrastructure plans, and AI pipelines **without executing them**
+- Produce **reproducible outputs** (same input → same result → same hash)
+- Bound conclusions explicitly instead of implying certainty
+- Run safely **offline**, with zero permissions and no network access
+- Prefer measured judgment over exhaustive reporting
+
+These tools are built for engineers inheriting unfamiliar systems, technical leads deciding where to start, and teams that value confidence over activity.
+
+---
+
+## Selected Work: Decision Safety Tooling
+
+### VectorScan (Open Source · AI & RAG Security · Python)
+Static security scanner for vector databases and RAG systems.
+
+- Detects exposure, configuration drift, and data leakage risks
+- Structural analysis only. No credentials, no execution
+- **Refuses to speculate** on runtime behavior or business logic
+
+https://github.com/Dee66/VectorScan
+
+---
+
+### ComputeScan (Infrastructure & FinOps · Core: HCL Static Analysis)
+Offline analysis of Terraform plans for compute and GPU cost risk.
+
+- Identifies oversizing, idle patterns, scaling misconfiguration, and tag drift
+- Designed for ML infrastructure and FinOps review
+- **Deliberately ignores** performance claims it cannot verify statically
+
+---
+
+### CostPilot (In Progress · FinOps Regression Control · Python)
+Deterministic FinOps engine for infrastructure-as-code.
+
+- Detects and predicts AWS cost regressions before deployment
+- Evaluates cost SLOs and produces auditable impact reports
+- **Does not auto-apply changes** without bounded confidence
+
+---
+
 <p align="center">
-  <img src="computescan_terminal.gif" alt="ComputeScan Demo" width="850">
+  <img src="computescan_terminal.gif" alt="Deterministic offline analysis example" width="850">
 </p>
 
----
-
-# Dee Prinsloo  
-**Senior Software Engineer | GenAI (AWS) | AI Platform & Infrastructure Engineering**
-
-I specialize in building secure, deterministic, and cost-efficient AI infrastructure on AWS.  
-My focus is on reproducible pipelines, GPU FinOps, Terraform governance, and secure RAG architectures. Tools that make AI systems safer, cheaper, and easier to operate in real production environments.
+<sub>
+Example: Static, offline analysis demonstrating absolute determinism.  
+Same input → same output → confident review before any change is made.
+</sub>
 
 ---
 
-## ⚙️ GuardSuite: AI Infrastructure Governance Tools  
-Design philosophy: **deterministic outputs, security-by-default, offline execution, zero-IAM assumptions.**
+## Current Focus: The Litmus Engine (In Progress)
+
+I am building an open-source engine that formalizes **senior-grade repository review**.
+
+The Litmus Engine exists to answer one question before any action is taken:
+
+**Where can pressure be applied safely - and where must it not?**
+
+It focuses on:
+
+- Defining the **Safe-to-Change Surface** in unfamiliar codebases
+- Explicitly surfacing where conclusions must be bounded
+- Identifying cases where *no safe move exists yet*
+- Explaining where less sophisticated tools would mislead
+
+This engine is not designed to replace human judgment.  
+It exists to **support it, not counterfeit it**.
 
 ---
 
-### **VectorScan (Open-Source Security Scanner)**  
-High-signal analysis for vector databases and RAG pipelines.  
-Detects unsafe retrieval patterns, embedding leakage, and configuration drift.  
-👉 https://github.com/Dee66/VectorScan
+## Contact
 
-### **ComputeScan (Open-Source GPU Governance Scanner)**  
-GPU cost-governance and utilization analysis.  
-Identifies cost drift, underutilization, scaling anomalies, and waste patterns.  
-👉 https://github.com/Dee66/ComputeScan
-
----
-
-## 🧩 Governance Blueprints (Optional, Enterprise-Facing Extensions)
-
-These modules provide **enforceable policies** and **exportable audit results** for teams that need stronger governance signals.  
-All scanners remain fully open source.
-
-### **VectorGuard Blueprint**  
-Zero-Trust RAG governance with reproducible OPA policies and audit-ready compliance outputs.
-
-### **ComputeGuard Blueprint**  
-GPU FinOps governance with utilization insights, drift analysis, and reproducible cost reports.
-
----
-
-## 📘 Terraform Demo Repository  
-A set of real Terraform plans demonstrating vector security flaws, GPU drift, and misconfiguration scenarios validated by GuardSuite scanners.  
-
----
-
-## 🧰 Selected Projects
-
-### **ShieldCraft AI**  
-AWS-native reference architecture demonstrating secure GenAI patterns, reproducible MLOps pipelines, and cost-aware infrastructure.  
-👉 https://github.com/ShieldCraft-AI/ShieldCraft-AI
-
-### **CodeCraft AI**  
-Minimal AWS-native framework for RAG pipelines, PEFT fine-tuning workflows, and secure MLOps deployment.  
-👉 https://github.com/Dee66/CodeCraft-AI
-
----
-
-## 🔍 Technical Focus Areas  
-- Deterministic engineering & reproducible pipelines  
-- Terraform plan parsing & governance  
-- OPA/Rego policy engines  
-- Vector DB & RAG security  
-- GPU FinOps, rightsizing, and drift detection  
-- AWS-native AI (Bedrock, SageMaker, Lambda, CDK)  
-- Secure MLOps: CI/CD, tagging, environment-aware configs  
-- Offline-first, audit-friendly infrastructure tooling  
-
----
-
-## 🛠️ What I'm Working On  
-- Expanding ComputeScan with GPU drift autopsy reports  
-- Adding new RAG security checks to VectorScan  
-- Growing the GuardSuite blueprint ecosystem for broader AI governance  
-
----
-
-## 📫 Contact  
-Email: support@shieldcraft-ai.com  
-LinkedIn: www.linkedin.com/in/deon-prinsloo-aws
-Website: shieldcraft-ai.com
+* **Architectural critique & tooling discussion:** via GitHub issues on relevant repositories  
+* **Professional context:** [LinkedIn – Deon Prinsloo](https://www.linkedin.com/in/deon-prinsloo-aws)

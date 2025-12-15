@@ -1,5 +1,5 @@
 # The Deterministic Toolsmith  
-### Engineering for Safe First Decisions
+### Engineering for Safety First Decisions
 
 Hi, I’m Dee.
 

@@ -1,108 +1,118 @@
-# The Deterministic Toolsmith  
-### Engineering for Safety First Decisions
+🧭 The Deterministic Toolsmith
+Engineering for Safe First Decisions in Unfamiliar Systems
 
-Hi, I’m Dee.
+Hi. I’m Dee.
 
-I build deterministic, offline developer tooling for AI and cloud systems.
+I build deterministic, offline analysis systems for software, infrastructure, and AI platforms where the cost of the wrong first change is high.
 
-I do this because I have repeatedly seen capable teams make the **wrong first change** in unfamiliar systems. Not due to incompetence but due to false confidence produced by shallow analysis tools.
+This work exists for one reason:
 
-My work focuses on **decision safety**: helping engineers understand what is safe to change, what is risky, and when judgment - not action - is required.
+Capable teams routinely damage unfamiliar systems by acting on confidence they have not earned.
 
----
+🔒 Design Doctrine
 
-## Foundational Principles (Engineering Invariants)
+Every system I build follows the same non-negotiable constraints:
 
-My tooling optimizes for **trust over speed**.
+Identical input produces identical output
 
-- Outputs must be **deterministic, auditable, and grounded only in observable evidence**
-- I avoid speculative inference and prefer **explicitly bounded conclusions**
-- If a conclusion cannot be supported safely, **silence is a valid outcome**
+Conclusions are derived only from observable evidence
 
-These constraints are intentional. They prevent tools from projecting authority they have not earned.
+Confidence is explicitly bounded
 
----
+Refusal and silence are valid outcomes
 
-## What I Work On
+If a conclusion cannot be justified safely, it is not produced.
 
-I design and build tools that:
+🛠️ What These Systems Do
 
-- Analyze repositories, infrastructure plans, and AI pipelines **without executing them**
-- Produce **reproducible outputs** (same input → same result → same hash)
-- Bound conclusions explicitly instead of implying certainty
-- Run safely **offline**, with zero permissions and no network access
-- Prefer measured judgment over exhaustive reporting
+These tools analyze repositories, infrastructure definitions, and AI pipelines without executing them.
 
-These tools are built for engineers inheriting unfamiliar systems, technical leads deciding where to start, and teams that value confidence over activity.
+They are designed to answer a narrow but critical question:
 
----
+Where can pressure be applied safely, and where must it not?
 
-## Selected Work: Decision Safety Tooling
+Operational guarantees:
 
-### VectorScan (Open Source · AI & RAG Security · Python)
+Offline execution
 
-Static security scanner for vector databases and RAG systems.
+No credentials
 
-- Detects exposure, configuration drift, and data leakage risks
-- Structural analysis only. No credentials, no execution
-- **Refuses to speculate** on runtime behavior or business logic
+No network access
 
-https://github.com/Dee66/VectorScan
+No side effects
 
----
+They optimize for decision safety, not activity, coverage, or output volume.
 
-### ComputeScan (Infrastructure & FinOps · Core: HCL Static Analysis)
+📦 Selected Work
+VectorScan
 
-Offline analysis of Terraform plans for compute and GPU cost risk.
+Open Source · AI and RAG Safety · Python
 
-- Identifies oversizing, idle patterns, scaling misconfiguration, and tag drift
-- Designed for ML infrastructure and FinOps review
-- **Deliberately ignores** performance claims it cannot verify statically
+Static analysis for vector databases and RAG systems.
 
----
+Detects exposure, permission drift, and data-leakage risk
 
-### CostPilot (In Progress · FinOps Regression Control · Python)
+Structural signals only
 
-Deterministic FinOps engine for infrastructure-as-code.
+Explicitly refuses to speculate on runtime behavior
 
-- Detects and predicts AWS cost regressions before deployment
-- Evaluates cost SLOs and produces auditable impact reports
-- **Does not auto-apply changes** without bounded confidence
+🔗 https://github.com/Dee66/VectorScan
 
----
+ComputeScan
 
-## Deterministic Offline Analysis (Example)
+Infrastructure Analysis · FinOps and Reliability
 
-Example: Static, offline analysis demonstrating absolute determinism.  
-Same input → same output → confident review before any change is made.
+Offline analysis of Terraform and infrastructure definitions.
 
-<p align="center">
-  <img src="computescan_terminal.gif" alt="Deterministic offline analysis example" width="850">
-</p>
+Identifies compute oversizing, scaling misconfiguration, and cost risk
 
----
+Designed for ML platforms and cost-sensitive environments
 
-## Current Focus: The Litmus Engine (In Progress)
+Ignores performance claims that cannot be verified statically
 
-I am building an open-source engine that formalizes **senior-grade repository review**.
+CostPilot
 
-The Litmus Engine exists to answer one question before any action is taken:
+In Progress · Deterministic FinOps
 
-**Where can pressure be applied safely - and where must it not?**
+A deterministic engine for bounding cloud cost regressions before deployment.
 
-It focuses on:
+Predicts cost impact from infrastructure deltas
 
-- Defining the **Safe-to-Change Surface** in unfamiliar codebases
-- Explicitly surfacing where conclusions must be bounded
-- Identifying cases where **no safe move exists yet**
-- Explaining where less sophisticated tools would mislead
+Produces auditable, reproducible reports
 
-This engine is not designed to replace human judgment.  
-It exists to **support it, not counterfeit it**.
+Does not apply changes without bounded confidence
 
----
+🔁 Determinism in Practice
 
-## Contact
+Static, offline analysis with absolute determinism.
 
-- **Architectural critique & tooling discussion:** via GitHub issues on relevant repositories  
-- **Professional context:** [LinkedIn – Deon Prinsloo](https://www.linkedin.com/in/deon-prinsloo-aws)
+Same input → same output → same hash
+
+<p align="center"> <img src="computescan_terminal.gif" alt="Deterministic offline analysis example" width="850"> </p>
+🧪 Current Focus: The Litmus Engine
+
+An open-source engine that formalizes senior-grade repository review.
+
+Litmus exists to answer one question before any action is taken:
+
+Where is it safe to apply pressure, and where would that be irresponsible?
+
+It produces:
+
+Explicit Safe-to-Change Surfaces
+
+Bounded conclusions with visible limits
+
+Documented refusals when no safe move exists
+
+Explanations of where less disciplined tools would mislead
+
+Litmus does not replace human judgment.
+It exists to prevent tools from counterfeiting it.
+
+📬 Contact
+
+Architectural discussion via GitHub issues on relevant repositories
+
+Professional context:
+LinkedIn – Deon Prinsloo
